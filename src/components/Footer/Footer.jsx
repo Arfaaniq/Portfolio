@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container">
       <p>
         &copy; {new Date().getFullYear()} Niq Portfolio. All rights
-        reserved. Using NextJs
+        reserved. Using Vite
       </p>
     </div>
   </footer>
