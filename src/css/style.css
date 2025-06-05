@@ -1,0 +1,85 @@
+.navbar {
+  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Gradasi warna utama */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white; /* Warna teks default */
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand a:hover {
+  transform: scale(1.05);
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 25px; /* Sedikit lengkungan untuk efek visual */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  position: relative; /* Untuk pseudo-element atau efek hover lainnya */
+  overflow: hidden; /* Penting untuk efek hover yang meluas */
+}
+
+.navbar-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Efek hover transparan */
+  transform: translateY(-3px); /* Sedikit naik saat di-hover */
+}
+
+/* Opsi: Efek hover dengan pseudo-element */
+.navbar-links li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-out;
+  z-index: -1;
+}
+
+.navbar-links li a:hover::before {
+  transform: translateX(0);
+}
+
+/* Responsif sederhana */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar-links {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    display: block;
+    width: 100%;
+  }
+}
