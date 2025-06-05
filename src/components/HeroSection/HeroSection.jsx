@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section id="hero" className="hero-section">
       <div className="hero-content">
         <h1 className="hero-title">
-          Halo, Saya <span className="gradient-text">BILA</span>
+          Halo, Saya <span className="gradient-text">Arfa Aniq Sabila</span>
         </h1>
         <p className="hero-subtitle">Frontend Developer & UI/UX Enthusiast</p>
         <a
