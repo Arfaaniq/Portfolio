@@ -17,7 +17,6 @@ const tools = [
       { name: "React", img: "/svg/skills/react.svg" },
       { name: "Tailwind", img: "/svg/skills/tailwind.svg" },
       { name: "Bootstrap", img: "/svg/skills/bootstrap.svg" },
-      { name: "NextJs", img: "/svg/skills/nextJS.svg" },
       { name: "PHP", img: "/svg/skills/php.svg" },
       { name: "ASP.NET", img: "/svg/skills/aspnet.com.png" },
       { name: "Kotlin", img: "/svg/skills/kotlin.com.png" },

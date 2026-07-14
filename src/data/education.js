@@ -1,9 +1,9 @@
 const education = [
   {
     institution: "Politeknik Negeri Batam",
-    degree: "D4 Teknik Informatika",
+    degree: "D3 Teknik Informatika",
     year: "2023 - Present",
-    description: "Fokus pada pengembangan perangkat lunak dan sistem informasi."
+    description: "Fokus pada pengembangan perangkat lunak dan fokus pada bidang UI/UX & Web Development."
   },
   {
     institution: "Infinite Learning",

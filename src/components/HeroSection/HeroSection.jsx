@@ -10,7 +10,7 @@ const HeroSection = () => {
         </h1>
         <p className="hero-subtitle">Frontend Developer & UI/UX Enthusiast</p>
         <a
-          href="https://drive.google.com/file/d/1LIqceQ1-hn1okzwWjmL8ADMIPX71neJP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qr8xjNu-T6PeItnpPUabtsZAuGlWJKZ6/view?usp=sharing"
           className="cta-button-resume"
         >
           <FaDownload style={{ marginRight: "8px" }} />
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="hero-image-container">
-        <img src="/bongo.svg" alt="Your Profile" className="hero-image" />
+        <img src="/profile.png" alt="Your Profile" className="hero-image" />
       </div>
     </section>
   );
