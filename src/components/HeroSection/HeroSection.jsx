@@ -14,7 +14,7 @@ const HeroSection = () => {
           className="cta-button-resume"
         >
           <FaDownload style={{ marginRight: "8px" }} />
-          GET RESUME
+          GET RESUME HERE
         </a>
         <a
           href={`https://wa.me/62895385169992?text=${encodeURIComponent("Halo, saya tertarik dengan portofolio Anda.")}`} className="cta-button"
